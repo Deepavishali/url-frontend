@@ -119,6 +119,7 @@ export default function SignUp() {
                         <TextField
                             id="password"
                             name="password"
+                            type="password"
                             label="password"
                             variant="outlined"
                             onChange={formik.handleChange}

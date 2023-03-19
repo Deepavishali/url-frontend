@@ -81,6 +81,7 @@ export default function ForgotPassword() {
                         <TextField
                             id="secretCode"
                             name="secretCode"
+                            type="number"
                             label="OTP"
                             variant="outlined"
                             onChange={formik.handleChange}
@@ -95,6 +96,7 @@ export default function ForgotPassword() {
                         <TextField
               id="newPassword"
               name="newPassword"
+              type="password"
               label="New password"
               variant="outlined"
               onChange={formik.handleChange}
